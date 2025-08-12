@@ -22,6 +22,7 @@ class RoleSeeder extends Seeder
         Permission::create(['name' => 'articles.create']);
         Permission::create(['name' => 'articles.edit']);
         Permission::create(['name' => 'articles.delete']);
+        Permission::create(['name' => 'articles.hola']);
 
         //asignar permisos
         $rolAdmin->givePermissionTo([
